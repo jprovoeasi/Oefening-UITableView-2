@@ -2,8 +2,6 @@
 
 In deze oefening gaan we **static** en **dynamic** rows gebruiken in de UITableView.
 
-## Tips
-
 ## Opgaves
 1. Voeg een UITableViewController toe aan het storyboard.
   - Configureer deze UITableViewController als **static**.
