@@ -20,3 +20,9 @@ In deze oefening gaan we **static** en **dynamic** rows gebruiken in de UITableV
   - Definiëer je eigen delegate protocol in de 2e UITableViewController.
   - Maak een property aan voor jouw eigen delegate in de 2e UITableViewController.
   - Zet de delegate gelijk aan de 1e UITableViewController vanuit de `prepareForSegue:sender:` methode.
+5. Verander de hoogte van de cellen dynamisch. Implementeer hiervoor de juiste UITableViewDelegate methode.
+6. Voeg een nieuwe UITableViewController toe. Deze zal dienen om een font te kiezen uit een lijst.
+  - Overloop dezelfde stappen dan je gedaan hebt om de UITableViewController van de kleuren op te zetten.
+  - Om alle font family names te bekomen is er een **klasse**methode op `UIFont` genaamd `familyNames`.
+  - Om voor een font family name alle fonts te bekomen is er een **klasse**methode op `UIFont` genaamd `fontWithName:size:`.
+  - Sla alle fonts op in een **(NSDictionary *)** zodat elke key de font family name is en de waarde overeenkomt met de array van fonts.
