@@ -3,15 +3,16 @@
 In deze oefening gaan we **static** en **dynamic** rows gebruiken in de UITableView.
 
 ## Opgaves
-1. Voeg een UITableViewController toe aan het storyboard.
+1. Voeg een UITableViewController toe aan het storyboard. Deze zal de status van jouw selectie(s) weergeven.
   - Configureer deze UITableViewController als **static**.
   - Maak 1 statische cell in het storyboard.
   - Maak en connecteer de nodige outlets. Dit gaat enkel en alleen omdat het een **statische** tabel is!
-2. Voeg nog een UITableViewController toe aan het storyboard.
+2. Voeg nog een UITableViewController toe aan het storyboard. Deze zal dienen om een kleur te kiezen uit een lijst.
   - Configureer deze UITableViewController als **dynamic**.
   - Maak een prototype cell.
   - Maak je eigen subklasse van UITableViewCell en zet deze als de custom klasse van jouw prototype cell.
   - Implementeer alle nodige methodes van het UITableViewDataSource en UITableViewDelegate protocol.
+  - Sla alle kleuren in de UITableViewController op in een **(NSArray *)**.
 3. Verbind de 2 UITableViewControllers met een **show** segue.
   - De bedoeling is dat je de segue performt wanneer op de rij geklikt wordt.
   - Dit kan je volledig vanuit het storyboard doen.
