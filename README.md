@@ -28,3 +28,7 @@ In deze oefening gaan we **static** en **dynamic** rows gebruiken in de UITableV
   - Sla alle fonts op in een **(NSDictionary *)** zodat elke key de font family name is en de waarde overeenkomt met de array van fonts.
 7. Rond de UIView die de geselecteerde kleur weergeeft af.
   - *Tip: elke UIView heeft een `layer` property.*
+8. Aan de UITableViewController gaan we een UISearchBar toevoegen om de gebruiken toe te laten te zoeken naar fonts.
+  - Voeg vanuit het storyboard een UISearchBar toe als headerView aan de UITableViewController.
+  - Zet de UITableViewController als de delegate van de UISearchBar.
+  - Implementeer de nodige delegate methode van de UISearchbar om te zoeken naar een font. Dit werkt door het model te filteren op basis van de zoaktekst en UITableView te reloaden.
