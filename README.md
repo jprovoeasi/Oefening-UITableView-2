@@ -24,7 +24,8 @@ In deze oefening gaan we **static** en **dynamic** rows gebruiken in de UITableV
 6. Voeg een nieuwe UITableViewController toe. Deze zal dienen om een font te kiezen uit een lijst.
   - Overloop dezelfde stappen dan je gedaan hebt om de UITableViewController van de kleuren op te zetten.
   - Om alle font family names te bekomen is er een **klasse**methode op `UIFont` genaamd `familyNames`.
-  - Om voor een font family name alle fonts te bekomen is er een **klasse**methode op `UIFont` genaamd `fontWithName:size:`.
+  - Om alle fonts binnen een family te bekomen is er een **klasse**methode op `UIFont`genaamd `fontNamesForFamilyName:`.
+  - Om een font name om te zetten in een UIFont is er een **klasse**methode op `UIFont` genaamd `fontWithName:size:`.
   - Sla alle fonts op in een **(NSDictionary *)** zodat elke key de font family name is en de waarde overeenkomt met de array van fonts.
 7. Rond de UIView die de geselecteerde kleur weergeeft af.
   - *Tip: elke UIView heeft een `layer` property.*
