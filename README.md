@@ -37,3 +37,6 @@ In deze oefening gaan we **static** en **dynamic** rows gebruiken in de UITableV
 
 ## Oplossing
 De oplossing van deze oefening vind je terug in de repository **Demo-UITableView**.
+
+## Oplossing
+De oplossingen vind je terug onder de repository **Demo-UITableView**.
