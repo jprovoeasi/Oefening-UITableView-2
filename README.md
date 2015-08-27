@@ -36,7 +36,4 @@ In deze oefening gaan we **static** en **dynamic** rows gebruiken in de UITableV
   - Implementeer de nodige delegate methode van de UISearchbar om te zoeken naar een font. Dit werkt door het model te filteren op basis van de zoaktekst en UITableView te reloaden.
 
 ## Oplossing
-De oplossing van deze oefening vind je terug in de repository **Demo-UITableView**.
-
-## Oplossing
 De oplossingen vind je terug onder de repository **Demo-UITableView**.
