@@ -34,3 +34,6 @@ In deze oefening gaan we **static** en **dynamic** rows gebruiken in de UITableV
   - Zet de UITableViewController als de delegate van de UISearchBar.
   - Geef aan dat de UITableViewController het protocol UISearchBarDelegate implementeert, dit doe je door `<UISearchBarDelegate>` toe te voegen achter de interface declaratie.
   - Implementeer de nodige delegate methode van de UISearchbar om te zoeken naar een font. Dit werkt door het model te filteren op basis van de zoaktekst en UITableView te reloaden.
+
+## Oplossing
+De oplossing van deze oefening vind je terug in de repository **Demo-UITableView**.
