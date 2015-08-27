@@ -1,6 +1,6 @@
 # Oefening-UITableView-2
 
-In deze oefening gaan we **static** en **dynamic** rows gebruiken in de UITableView.
+In deze oefening maak je een combinatie van een **static** en **dynamic** UITableView.
 
 ## Opgaves
 1. Voeg een UITableViewController toe aan het storyboard. Deze zal de status van jouw selectie(s) weergeven.
