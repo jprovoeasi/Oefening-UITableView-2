@@ -37,4 +37,4 @@ In this exercise you will make a combination of a **static** and **dynamic** UIT
   - Filter the fonts based on the search text and reload the UITableView.
 
 ## Solutions
-The solutions are available in the **oplossing** branch of this repository.
+The solutions are available in the **Demo-UITableView** repository.
